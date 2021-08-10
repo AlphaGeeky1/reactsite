@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/reactsite/static/css/main.312f8a6b.chunk.css",
+    "main.js": "/reactsite/static/js/main.d1ea5e58.chunk.js",
+    "main.js.map": "/reactsite/static/js/main.d1ea5e58.chunk.js.map",
+    "runtime-main.js": "/reactsite/static/js/runtime-main.3cc808e6.js",
+    "runtime-main.js.map": "/reactsite/static/js/runtime-main.3cc808e6.js.map",
+    "static/js/2.5e56f63c.chunk.js": "/reactsite/static/js/2.5e56f63c.chunk.js",
+    "static/js/2.5e56f63c.chunk.js.map": "/reactsite/static/js/2.5e56f63c.chunk.js.map",
+    "index.html": "/reactsite/index.html",
+    "static/css/main.312f8a6b.chunk.css.map": "/reactsite/static/css/main.312f8a6b.chunk.css.map",
+    "static/js/2.5e56f63c.chunk.js.LICENSE.txt": "/reactsite/static/js/2.5e56f63c.chunk.js.LICENSE.txt",
+    "static/media/About copy.cfc83244.jpg": "/reactsite/static/media/About copy.cfc83244.jpg",
+    "static/media/About.module.css": "/reactsite/static/media/About.cfc83244.jpg",
+    "static/media/Canteen.d9d8f1f2.jpg": "/reactsite/static/media/Canteen.d9d8f1f2.jpg",
+    "static/media/Home.module.css": "/reactsite/static/media/College.a59feff3.jpg",
+    "static/media/Register.module.css": "/reactsite/static/media/Contact.efb0ae40.jpg",
+    "static/media/Courses.module.css": "/reactsite/static/media/Courses.db5dcc94.jpg",
+    "static/media/LA.3bd4e6b5.jpg": "/reactsite/static/media/LA.3bd4e6b5.jpg",
+    "static/media/Library.0ade9a57.jpg": "/reactsite/static/media/Library.0ade9a57.jpg",
+    "static/media/London.7f53aa36.jpg": "/reactsite/static/media/London.7f53aa36.jpg",
+    "static/media/San Franscico.0cbc2d6e.jpg": "/reactsite/static/media/San Franscico.0cbc2d6e.jpg",
+    "static/media/Sports.6e03a994.jpg": "/reactsite/static/media/Sports.6e03a994.jpg",
+    "static/media/nyc.47d8b96e.jpg": "/reactsite/static/media/nyc.47d8b96e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cc808e6.js",
+    "static/js/2.5e56f63c.chunk.js",
+    "static/css/main.312f8a6b.chunk.css",
+    "static/js/main.d1ea5e58.chunk.js"
+  ]
+}
