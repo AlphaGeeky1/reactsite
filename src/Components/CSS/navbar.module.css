@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;  /* Mota wala */
+
+}
+.header{
+    height: 80px;
+    width:100vw;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FB942E;
+}
+.navbar{
+    display: flex;
+    width:88%;
+    /* border:1px solid black; */
+    justify-content: space-between;
+}
+
+.parentBtn{
+    display: block;
+}
+.close{
+    display: none;
+}
+.bars{
+    display: none;
+}
+
+.btn{
+    display: inline-block;
+    /* border:1px solid black; */
+    margin-right: 8px;
+    padding:15px 30px;
+    text-decoration: none;
+    transition:.5s;
+    color:black;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: white;
+    border-radius: 20px;
+    
+
+}
+.logo{
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 24px;
+}
+@media (max-width:700px) {
+    .parentBtn{
+        position:absolute;
+        top:0px;
+        right:0px;  
+        width:150px;
+        height: 100vh;
+        background-color:#FB942E;
+        display: block;
+        z-index: 3;
+
+    }
+.closeBtn{
+        display: none;
+    }
+.close{
+        display:inline-block; 
+        /* border:1px solid black; */
+        margin: 10px 0px 20px 10px;
+        font-size: 20px;
+    }
+.btn{
+        display: block;
+        width:100%;
+        padding:20px;
+        text-align: center;
+        border:1px solid black;
+        margin-bottom: 10px;
+    }
+.bars{
+        display:block   ;
+    }
+    
+    
+}

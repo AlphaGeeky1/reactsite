@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.contact1{
+    color:white;
+    width:100vw;
+    border:1px solid black;
+    background-image:linear-gradient(rgba(0, 0, 0,0.6),rgba(0,0, 0,0.6)), url(Contact.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position:center center;
+    display: flex;
+    align-items: center;
+}
+.contact{
+    width:80%;
+    margin:auto;
+    background-color: transparent;
+    
+}
+.contact h1{
+    font-weight: 700px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.form{
+    width: 80%;
+    margin:auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: fit-content;
+    /* border:1px solid gray; */
+}
+.form form{
+    display:flex;
+    flex-direction: column;
+    
+}
+.form input,.form textarea{
+    outline: none;
+    padding:15px;
+    margin-bottom: 17px;
+    border:1px solid gray;
+    border-radius: 10px;
+    width: 50%;
+
+}
+.btn{
+    color:black;
+    border:1px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    width:120px;
+    height: 40px;
+    padding:10px 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: orange;
+    color:black;
+    transition: 1s;
+}
+
+
+.title{
+    padding:100px 0 50px 0;
+    text-align: center;
+}
+
+
+
+
+.wrapper{
+    width:100vw;
+    /* border:3px solid orange; */
+    height: max-content;
+    /* background-color: wheat; */
+}
+.row{
+    width:90%;
+    margin:auto;
+    /* border:1px solid black; */
+    margin-bottom: 30px;
+    height: fit-content;
+    /* background-color:wheat; */
+    margin-top: 40px;
+}
+.column{
+    height: 100%;
+    border:1px solid black;
+    margin-right: 20px;
+    width:90%;
+    /* margin:auto; */
+    display: flex;
+    background-color:wheat;
+    border-radius: 20px;
+
+}
+.iimg{
+    width:30%;
+    /* border:1px solid gray; */
+    height: 100%;
+    padding:10px;
+}
+.data{
+    width:70%;
+    /* border:1px solid black; */
+    text-align: left;
+}
+.data i, .data span{
+    display: inline-block;
+}
+.data span{
+    color:gray;
+    
+}
+.data i{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.iimg img{
+    width:90%;
+    height: 90%;
+    border-radius: 10px;
+}
+.enquiry{
+    text-align: left;
+    padding:50px 0 30px 0;
+}
+.data i{
+    margin: 15px;
+
+}
+@media (min-width:700px){
+    .row{
+        display: flex;
+        flex-basis: 30%;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iimg{
+        margin:auto;
+    }
+}
+
+
+
+
